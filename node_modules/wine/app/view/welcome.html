@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{TITLE}} - Wiki your code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="/custom.min.css">
+
+    <link rel="stylesheet" type="text/css" href="/syntaxhighlighter-3.0.83/styles/shCoreEclipse.css">
+    <link rel="stylesheet" type="text/css" href="/syntaxhighlighter-3.0.83/styles/shThemeEclipse.css">
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Code Wine</a>
+            <p class="navbar-text">{{APPTITLE}}</p>
+        </div>
+    </div>
+</div>
+<div class="container" style="padding-top: 80px">
+    <div class="row">
+        <div class="col-lg-12">
+            {{CONTENTS}}
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-lg-12 text-right">
+                <hr>
+                filemtime : {{MODIFY}}
+            </div>
+        </div>
+
+    </footer>
+</div>
+<script src="/jquery-1.10.2.min.js"></script>
+<script src="/bootstrap.min.js"></script>
+<script src="/syntaxhighlighter-3.0.83/src/shCore.js" type="text/javascript"></script>
+<script src="/syntaxhighlighter-3.0.83/scripts/shBrushPhp.js" type="text/javascript"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['toolbar'] = false;
+    SyntaxHighlighter.all();</script>
+</body>
+</html>

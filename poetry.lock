@@ -1,0 +1,40 @@
+[[package]]
+category = "main"
+description = "Does single char input, like C getch/getche"
+name = "getch"
+optional = false
+python-versions = "*"
+version = "1.0"
+
+[[package]]
+category = "main"
+description = "Read single characters and key-strokes"
+name = "getkey"
+optional = false
+python-versions = "*"
+version = "0.6.5"
+
+[[package]]
+category = "main"
+description = "Utilities to read single characters and key-strokes"
+name = "readchar"
+optional = false
+python-versions = "*"
+version = "2.0.1"
+
+[metadata]
+content-hash = "47a21298fa33bc3e00d2c739b3f4248e4952501f460330b4acf5f92fd0b91575"
+python-versions = "^3.8"
+
+[metadata.files]
+getch = [
+    {file = "getch-1.0-python2.tar.gz", hash = "sha256:be451438f7a2b389f96753aea39b6ed2540a390f1b9a12badcbc110cf9a5ce7f"},
+    {file = "getch-1.0.tar.gz", hash = "sha256:a6c22717c10051ce65b8fb7bddb171af705b1175e694a73be956990f6089d8b1"},
+]
+getkey = [
+    {file = "getkey-0.6.5.tar.gz", hash = "sha256:68c7c702c3b34deacf427f6c0f1fd66c5c2aa12d7801aa32442fc1a71c8ce059"},
+]
+readchar = [
+    {file = "readchar-2.0.1-py2-none-any.whl", hash = "sha256:ed00b7a49bb12f345319d9fa393f289f03670310ada2beb55e8c3f017c648f1e"},
+    {file = "readchar-2.0.1-py3-none-any.whl", hash = "sha256:3ac34aab28563bc895f73233d5c08b28f951ca190d5850b8d4bec973132a8dca"},
+]
